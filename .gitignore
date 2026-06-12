@@ -1,0 +1,57 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ─── Jupyter Notebook ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Environment / Secrets ────────────────────────────────────────────────────
+# IMPORTANT: Never commit your .env file — it contains your TMDB API key!
+.env
+.env.*
+!.env.example
+
+# ─── Large Model / Data Files ─────────────────────────────────────────────────
+# These files are too large for GitHub (>100 MB limit).
+# Regenerate them by running model.ipynb after cloning.
+similarity.pkl
+movies.pkl
+
+# ─── Raw Dataset CSVs ─────────────────────────────────────────────────────────
+# Download from Kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+tmdb_5000_credits.csv
+tmdb_5000_movies.csv
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Virtual Documents (Jupyter extension) ────────────────────────────────────
+.virtual_documents/
